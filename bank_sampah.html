@@ -127,6 +127,35 @@
             border-top: 1px solid #ccc;
             margin: 40px 0;
         }
+
+        .app-link-section {
+        text-align: center;
+        margin: 60px 0;
+        }
+
+        .app-link-text {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        }
+
+        .app-link-button {
+        background-color: #4CAF50; /* hijau */
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        text-decoration: none;
+        border-radius: 8px;
+        display: inline-block;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        }
+
+        .app-link-button:hover {
+        background-color: #45a049;
+        transform: translateY(-2px) scale(1.03);
+        }
+
     </style>
 </head>
 <body>
@@ -143,7 +172,7 @@
 
         <div class="section">
             <h2>Query 1: Membuat Class untuk Sistem UMKM</h2>
-            <p>Kita mulai dengan membuat class UMKMSystem yang akan menjadi inti dari sistem ini. Class ini akan menyimpan data dasar seperti nama UMKM, data anggota, dan dana pinjaman awal dari Bapak Arry Hutomo.</p>
+            <p>Class ini akan menyimpan data seperti nama UMKM, data anggota, dan dana pinjaman awal sebesar 50 Jt Rupiah.</p>
 
             <div class="tip-box">
                 <p><strong>Tip Kunci:</strong></p>
@@ -484,6 +513,25 @@ Kerja bagus! Anda berkontribusi pada lingkungan yang lebih bersih. Ayo kumpulkan
             </pre>
         </div>
     </div>
+    <!-- <div class="section">
+        <div class="tip-box">
+            <div class="text-center my-10">
+                <p class="text-lg font-semibold mb-4">Jika ingin mencoba aplikasinya, bisa klik link di bawah ini:</p>
+                <button><a href="https://banksampahahsanu.streamlit.app/" target="_blank"
+                    class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                    🚀 Lihat Aplikasi Bank Sampah
+                </a></button>
+            </div>
+        </div>        
+    </div> -->
+    <div class="app-link-section">
+        <p class="app-link-text">Jika ingin mencoba aplikasinya, bisa klik tombol di bawah ini:</p>
+        <a href="https://banksampahahsanu.streamlit.app/" target="_blank" class="app-link-button">
+            🚀 Lihat Aplikasi Bank Sampah
+        </a>
+    </div>
+
+    
 
     <footer>
         &copy; 2025 Ihsan Ahsanu Amala
